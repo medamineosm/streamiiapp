@@ -1,7 +1,5 @@
 package com.osm.streamiiapp.controller;
 
-import javax.annotation.PostConstruct;
-import java.time.Duration;
 import com.osm.streamiiapp.dao.VideoLiveDao;
 import com.osm.streamiiapp.model.VideoLive;
 import lombok.extern.slf4j.Slf4j;
@@ -11,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
+
+import java.time.Duration;
 
 /**
  * @author gg294 - 4/8/2021
